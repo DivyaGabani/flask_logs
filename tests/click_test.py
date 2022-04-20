@@ -1,9 +1,7 @@
 """This tests the log"""
 import os
-
 from click.testing import CliRunner
-
-from app import create_log_folder, create_database
+from app import create_log_folder
 
 runner = CliRunner()
 
